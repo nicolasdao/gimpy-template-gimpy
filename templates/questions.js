@@ -4,7 +4,7 @@ const colors = require('colors')
 const GIMPHOME = ['The Box', 'The Dungeon', 'The Basement']
 
 exports.preQuestions = () => {
-	// Fill this if you want to perform any type to prerequisite checks. For example, you may want to make sure that 
+	// Fill this if you want to perform any type of prerequisite checks. For example, you may want to make sure that 
 	// git is installed:
 	// 
 	// const gitNotInstalled = !shell.exec('which git', {silent:true}).stdout
