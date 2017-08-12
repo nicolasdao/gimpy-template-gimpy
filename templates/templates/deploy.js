@@ -14,5 +14,5 @@ const colors = require('colors')
  */
 exports.deploy = (env, option1, option2, option3, option4, option5) => {
 	// Add your deployment code here
-	shell.exec('Hello. I\'m your gimp. Train me to deploy, and I\'ll do that chore for you whenever you order me Master.'.italic.cyan)
+	console.log('Hello. I\'m your gimp. Train me to deploy, and I\'ll do that chore for you whenever you order me Master.'.italic.cyan)
 }
