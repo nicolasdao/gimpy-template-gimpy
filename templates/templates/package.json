@@ -1,4 +1,8 @@
 {
-  "name": "{{projectName}}",
-  "version": "{{projectVersion}}"
+	"name": "{{projectName}}",
+	"version": "{{projectVersion}}",
+	"devDependencies": {
+		"colors": "^1.1.2",
+		"shelljs": "^0.7.8"
+	}
 }

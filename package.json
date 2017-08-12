@@ -4,7 +4,8 @@
   "description": "Default gimpy template",
   "main": "questions.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "eslint": "eslint question.js templates/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "chai": "^4.1.0",
     "colors": "^1.1.2",
+    "eslint": "^4.4.1",
     "mocha": "^3.5.0",
     "shelljs": "^0.7.8"
   }
